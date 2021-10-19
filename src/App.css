@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  background: url(https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg) fixed center/cover ;
 }
 
 .App-logo {
@@ -36,3 +38,71 @@
     transform: rotate(360deg);
   }
 }
+.weatherSide{
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 25%;
+  height: 100vh;
+}
+.weatherSide input{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  border-radius: 0;
+}
+.weatherSide .name{
+  margin: 25px 0 25px 0;
+}
+.weatherSide .icon{
+  margin: 35px 0 30px 0;
+}
+.weatherSide .temp{
+  margin: 20px;
+}
+.weatherSide button{
+  margin-top: 35px;
+  background-color: rgba(105, 38, 72, 0.3);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.weatherSide button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.countryList{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+.country{
+  text-align: center;
+  background-color: rgb(255, 192, 203,0.3);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  height: 400px;
+}
+.country:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.country .name{
+  margin: 0 0 25px 0;
+}
+.country .icon{
+  margin-bottom: 25px;
+}
+.country button{
+  margin-top: 45px;
+  background-color: rgba(105, 38, 72, 0.3);
+  border: none;
+  border-radius: 5px;
+}
+.country button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+

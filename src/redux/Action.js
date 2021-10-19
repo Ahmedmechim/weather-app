@@ -1,0 +1,5 @@
+export const ADD_DATA="ADD_DATA"
+export const SCEARCHING="SCEARCHING"
+export const SELECTION="SELECTION"
+export const SUBMITING="SUBMITING"
+export const DELETE="DELETE"
